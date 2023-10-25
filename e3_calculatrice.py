@@ -6,8 +6,8 @@ def calcul_simple(elements: list):
     Effectue un calcul simple via un opérateur entre deux nombres
     '''
 
-    nombre_1 = (int)(elements[0])
-    nombre_2 = (int)(elements[2])
+    nombre_1 = (float)(elements[0])
+    nombre_2 = (float)(elements[2])
     operateur = (elements[1])
 
     if (operateur == "+"):
