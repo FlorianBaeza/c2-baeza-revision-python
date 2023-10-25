@@ -1,13 +1,14 @@
-def square_list(numbers: list)-> list:
+def square_list()-> list:
     '''
-    Entrée: une liste de nombres
-    Sortie: la liste des nombres mis au carré
+    Entrée: /
+    Sortie: une liste de nombres mis au carré
 
-    Retourne la liste de nombres reçue en entrée, chaque nombre étant passé au carré
+    Retourne une liste de nombres, chaque nombre étant passé au carré
     '''
 
+    numbers = [1,2,3,4,5,6,7,8,9,10]
     squared_numbers = [number**2 for number in numbers]
     return squared_numbers
 
 
-square_list([5,1,2,9,4,3])
+square_list()
