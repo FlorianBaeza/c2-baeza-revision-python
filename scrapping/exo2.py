@@ -17,7 +17,7 @@ def countries_capitals_list():
         country_name = country_formatted.split("\n")[0]
         country_capital = country_formatted.split("\n")[3].split("Capital: ")[1]
 
-        print(country_name + ", " + country_capital)
+        print(country_name + " " + country_capital)
 
         
 countries_capitals_list()
