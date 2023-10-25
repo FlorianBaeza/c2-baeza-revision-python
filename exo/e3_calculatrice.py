@@ -1,7 +1,7 @@
-def calcul_simple(elements: list):
+def calcul_simple(elements: list)-> float:
     '''
     Entrée : elements, la liste contenant les deux nombres ainsi que le signe d'opération
-    Sortie : /
+    Sortie : le résultat du calcul
 
     Effectue un calcul simple via un opérateur entre deux nombres
     '''
@@ -11,13 +11,13 @@ def calcul_simple(elements: list):
     operateur = (elements[1])
 
     if (operateur == "+"):
-        print(nombre_1 + nombre_2)
+        return nombre_1 + nombre_2
     elif (operateur == "-"):
-        print(nombre_1 - nombre_2)
+        return nombre_1 - nombre_2
     elif (operateur == "*"):
-        print(nombre_1 * nombre_2)
+        return nombre_1 * nombre_2
     elif (operateur == "/"):
-        print(nombre_1 / nombre_2)
+        return nombre_1 / nombre_2
 
 # ===========================================================
 

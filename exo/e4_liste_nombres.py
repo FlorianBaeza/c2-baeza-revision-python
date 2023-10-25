@@ -9,10 +9,15 @@ def liste_nombres(nombres: list):
     '''
 
     # maximum
-    print(max(nombres))
+    maximum = max(nombres)
     
     # minimum
-    print(min(nombres))
+    minimum = min(nombres)
 
     # moyenne
-    print(statistics.mean(nombres))
+    moyenne = statistics.mean(nombres)
+
+    return maximum, minimum, moyenne
+
+
+liste_nombres([5,10,8,3])
