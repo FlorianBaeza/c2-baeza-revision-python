@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as bs
 
 def data_first_three_pages():
     '''
-    Affiche la liste des pays présente à l'URL spécifiée
+    Affiche l'équipe, l'année et le % (ratio) des trois premières pages
     '''
 
     for i in range(3):

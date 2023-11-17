@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as bs
 
 def countries_capitals_list():
     '''
-    Affiche la liste des pays présente à l'URL spécifiée
+    Affiche la liste des pays présente à l'URL spécifiée, ainsi que leurs capitales
     '''
 
     url = 'https://www.scrapethissite.com/pages/simple/'
