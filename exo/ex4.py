@@ -17,7 +17,9 @@ def liste_nombres(nombres: list):
     # moyenne
     moyenne = statistics.mean(nombres)
 
-    return maximum, minimum, moyenne
+    print(maximum)
+    print(minimum)
+    print(moyenne)
 
 
 liste_nombres([5,10,8,3])
